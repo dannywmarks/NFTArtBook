@@ -1,0 +1,14 @@
+Initial idea: 
+  - Have the ability for bands or venues to mint NFT's on platform for flyers to live music shows.
+  - Create a wallet for NFT flyers to be stored in, like a digital scrap book
+  - Create a DAO to vote on NFT's to be used in real life Coffee Table book
+  - Create a physical NFT scrap book to sell 
+
+  - NFT options
+    Differentiate between prints and original piece
+    Grant user the ability to sell prints of NFT's
+    Grant user the ability to stake NFT on platform to collect interest
+    Profit sharing from sail of coffee table book
+
+  - Platform for Live Music venue? Platform for Individual Artists? Seperate Platform for DAO / Book?
+  - NFT platform have ability to sell tickets for venue, save tickets to scrap book. Tiers of show art work. Options to buy NFT
