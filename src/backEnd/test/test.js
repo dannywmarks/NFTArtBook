@@ -17,11 +17,11 @@ contract('NFT', ([acc1, acc2]) => {
 
   describe('deploy and test...', () => {
     it('...name', async () => {
-      expect(await nft.name()).to.be.eq('Dapp University')
+      expect(await nft.name()).to.be.eq('NFT ART BOOK')
     })
 
     it('...symbol', async () => {
-      expect(await nft.symbol()).to.be.eq('DAPPU')
+      expect(await nft.symbol()).to.be.eq('BART')
     })
 
     it('...owner address', async () => {

@@ -13,15 +13,15 @@ import './Style.css';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg rounded-bottom navBorderBottom" style={{ color: "#55FF55", "backgroundColor": "#1D1D1D" }}>
+      <nav className="navbar navbar-expand-lg rounded-bottom navBorderBottom" style={{ color: "#fff", "backgroundColor": "#1D1D1D" }}>
         <a
           className="navbar-brand rounded"
           target="_blank"
-          href="https://github.com/xternet/dapp_template_v2"
-          style={{color: "#55FF55", border: "1mm ridge #55FF55" }}
+          href="https://github.com/dannywmarks"
+          style={{color: "#fff", border: "1mm ridge #fff" }}
           rel="noopener noreferrer"
         >
-            <b>&nbsp;NFT M@$t3rcl@$$&nbsp;</b>
+            <b>&nbsp;BART NFT&nbsp;</b>
         </a>
           { this.props.account
           ? <div className="collapse navbar-collapse">
@@ -43,7 +43,7 @@ class Navbar extends Component {
                       <li className="nav-item nav-link small">
                         { this.props.network === 'Main' || this.props.network === 'Private' || this.props.network === 'Wrong network'
                         ? <b><a
-                            style={{ color: "#55FF55" }}
+                            style={{ color: "#fff" }}
                             href={`https://etherscan.io/address/` + this.props.account}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -52,7 +52,7 @@ class Navbar extends Component {
                           &nbsp;
                           </a></b>
                         : <b><a
-                            style={{color: "#55FF55"}}
+                            style={{color: "#fff"}}
                             href={`https://${this.props.network}.etherscan.io/address/` + this.props.account}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -79,7 +79,7 @@ class Navbar extends Component {
                 ? <button
                     type="Success"
                     className="btn btn-outline btn-block "
-                    style={{ backgroundColor: "#55FF55", color: "#000000" }}
+                    style={{ backgroundColor: "#fff", color: "#000000" }}
                     onClick={async () => {
                       try {
                         await window.ethereum.enable()

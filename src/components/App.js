@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 import Navbar from './Navbar'
 import Main from './Main'
 
+
+
 class App extends Component {
   async UNSAFE_componentWillMount() {
     await this.loadBlockchainData(this.props.dispatch)
